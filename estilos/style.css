@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    color: #ffffff !important;
+
+}
+
+li{
+    list-style: none;
+}
+
+
+body {
+    font-family: "inter";
+    font-size: 150%;
+    background-color: #ffffff;
+}
+
+.main_header {
+    background-color: #83B248 ;
+    text-align: center;
+    height: 100%;
+}
+
+.main_header_nav ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+.main_header_nav {
+    text-align: center;
+
+}
+
+.main_header_nav_boton {
+    background-color: #218F3E;
+    width: 340px;
+    padding: 18px;
+    margin-top: 30px;
+    margin-bottom: 31px;
+    margin-right: 80px;
+    border-radius: 167px;
+}
+
+.color_palabra {
+    color: white;
+}
+
+.main_header_nav_boton:hover {
+    transform: scale(1.2);
+    transition: all 100ms;
+    -webkit-transition: all 300ms;
+    -moz-transition: all 300ms;
+    -ms-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+    background-color: #125B00;
+
+}
+
+footer {
+    background-color: #83B248;
+    bottom: 0px;
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    padding: 1.4%;
+    color: #ffffff;
+
+}
+
+
+.imagen_footer{
+    width: 4%;
+    border-radius: 25px;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.imagen-logo {
+    border-radius: 20px;
+}
+
+
+
+/*Inicio pagina de quienes somos*/
+.titulo_bienvenida{
+    color: #218F3E;
+    font-weight: bold;
+}
+.centrar_informacion{
+    text-align: center;
+    padding: 4%;
+}
+.presentacion{
+    padding: 4%;
+}
+
+.div_unicos{
+    padding: 2%;
+}
+
+
+/*Fin pagina de quienes somo */
+
+/*Inicio pagina Productos*/
+.productos {
+    display: grid;
+    grid-template-areas: "div_producto_1 div_producto_2 div_producto_3 ";
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 5%;
+    justify-content: space-around;
+}
+.producto_1, .producto_2, .producto_3, .producto_4 , .producto_5, .producto_6 {
+    width: 100%;
+}
+.card{
+    margin: 10%;
+    width: 50%;
+}
+/*Fin página Productos*/
+/*Inicio pagina Plan entrenamiento Hombre*/
+.centrar-titulo{
+    text-align: center;
+    padding: 2%;
+    text-decoration: underline;
+}
+.columna-ejercicios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.dias_entrenamientos{
+    padding: 2%;
+}
+.contenido_caja{
+    width: 50%;
+}
+.dias_entrenamientos-padding{
+    padding-bottom: 15%;
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-right: 2%; 
+}
+
+/*Fin pagina pagina Plan Entrenamiento Hombre*/
+
+
+
+/*Inicio Pagina Plan Entrenamiento Mujer*/
+
+
+/*Fin Pagina Plan Entrenamietno Mujer*/
+
+
+
+/*Inicio pagina Contacto*/
+
+.formulario{
+    width: 50%; 
+    margin: auto; 
+    box-sizing: border-box; 
+    padding: 8%; 
+    margin-top: 0%;
+}
+.formulario__titulo{
+    text-align: center;
+    margin-top: 0;
+}
+.formulario__input, .formulario__label, .formulario__submit{
+    display: block;
+    width: 100%;
+    font-size: 100%;
+}
+.formulario__input{
+    padding: 5%;
+    background:transparent;
+    border: 1px solid;
+    margin-bottom: 5%;
+}
+.formulario__input:focus{
+
+}
+.formulario__input:focus + .formulario__label{
+    margin-left: -10.4%;
+}
+.formulario__label{
+    padding-left: 1%;
+    position: absolute;
+    margin-top: -8%;
+    transition: all 0.2;
+    width: 50%;
+}
+.formulario__submit{
+    background-color: #83B248;
+    width: 30%;
+    padding: 1% 1%;
+    cursor: pointer;
+    border: none;
+}
+.fijar{
+    margin-top: -4.3%;
+}
+
+
+
+/*Fin pagina Contacto*/
+
+@media(max-width:550px) {
+    footer {
+        font-size: 13px;
+        width: 100%;
+        position: fixed;
+        text-align: center;
+    }
+    .div_footer_conctacto{
+        position: sticky;
+    }
+
+    .main_header_nav ul {
+        flex-wrap: wrap;
+    }
+
+
+
+/*Inicio pagina Productos*/
+.productos {
+    display: grid;
+    grid-template-areas: " div_producto_1"  
+                        "div_producto_2"
+        "div_producto_3""div_producto_4"
+        "div_producto_5" "div_producto_6";
+    grid-template-columns: 1fr;
+    align-items: center;
+    padding: 17%;
+}
+
+.producto_1, .producto_2, .producto_3, .producto_4 , .producto_5, .producto_6 {
+    width: 100%;
+}
+.card{
+    margin: 13%;
+    width: 74%;
+}
+/*Fin página Productos*/    
+
+/*Inicio pagina Plan entrenamiento Hombre*/
+.centrar-titulo{
+    text-align: center;
+    padding: 3%;
+    text-decoration: underline;
+}
+.columna-ejercicios{
+    display: flex;
+    flex-direction:wrap ;
+    align-items: start;
+    text-align: center;
+}
+.dias_entrenamientos{
+    padding: 5%;
+}
+.contenido_caja{
+    width: 100%;
+}
+.dias_entrenamientos-padding{
+    padding-bottom: 15%;
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-right: 2%; 
+}
+
+/*Fin pagina pagina Plan Entrenamiento Hombre*/
+/*Inicio pagina contactenos*/
+.formulario{
+    width: 80%;
+    padding: 3%;
+    margin-top: 2%;
+}
+.formulario__titulo{
+    text-align: center;
+    margin-top: 0;
+}
+.formulario__input, .formulario__label, .formulario__submit{
+    display: block;
+    width: 100%;
+    font-size: 100%;
+}
+.formulario__input{
+    padding: 8%;
+    background: transparent;
+    border: 1px solid;
+    margin-bottom: -2%;
+    margin-top: 6%;
+}
+.formulario__input:focus{
+
+}
+.formulario__input:focus + .formulario__label{
+    margin-left: 57.6%;
+}
+.fijar{
+    margin-top: -4.3%;
+}
+/*Fin Pagina contactenos*/
+
+}
