@@ -291,7 +291,6 @@ footer div {
 }
 .formulario__input, .formulario__label, .formulario__submit{
     display: block;
-    width: 100%;
     font-size: 100%;
 }
 .formulario__input{
