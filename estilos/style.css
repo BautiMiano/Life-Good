@@ -95,10 +95,11 @@ footer div {
 .titulo_bienvenida{
     color: #218F3E;
     font-weight: bold;
+    padding: 4%;
 }
 .centrar_informacion{
     text-align: center;
-    padding: 12%;
+    padding: 2%;
 }
 .presentacion{
     padding: 4%;
@@ -132,6 +133,7 @@ footer div {
     text-align: center;
     padding: 2%;
     text-decoration: underline;
+    color: #83B248;
 }
 .columna-ejercicios{
     display: flex;
@@ -139,25 +141,119 @@ footer div {
     align-items: center;
     text-align: center;
 }
-.dias_entrenamientos{
-    padding: 2%;
+
+h3{
+    color: #218F3E;
+    padding: 5%;
+}
+.dias_entrenamientos-1-hombre ul li{
+    color: #4ad16e;
+}
+.dias_entrenamientos-2-hombre ul li{
+    color: #4ad16e;
+}
+.dias_entrenamientos-3-hombre ul li{
+    color: #4ad16e;
 }
 .contenido_caja{
     width: 50%;
 }
-.dias_entrenamientos-padding{
-    padding-bottom: 15%;
-    padding-left: 2%;
-    padding-top: 2%;
-    padding-right: 2%; 
+.dias_entrenamientos-1-hombre{
+    background-image: url('/imagenes/imagen-fuerza.jpg');
+    background-position: center;
+    padding: 7%;
+    background-size: 90%;
+    background-repeat: no-repeat;
 }
-
+.dias_entrenamientos-2-hombre{
+    background-image: url('/imagenes/resistencia-cardio.jpg');
+    background-position: center;
+    padding: 7%;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+.dias_entrenamientos-3-hombre{
+    background-image: url('/imagenes/imagen-flexibilidad.jpg');
+    background-position: center;
+    padding: 7%;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+.dias_entrenamientos-padding-3-hombre{
+    padding: 2% 2% 15% 2%;
+    background-image: url('/imagenes/imagen-flexibilidad.jpg');
+    background-position: center;
+    background-size: cover;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    color: #4ad16e
+}
+/*background-image: url(/imagenes/imagen-fuerza.jpg);
+/*background-position: center;
 /*Fin pagina pagina Plan Entrenamiento Hombre*/
 
 
 
 /*Inicio Pagina Plan Entrenamiento Mujer*/
+.centrar-titulo{
+    text-align: center;
+    padding: 2%;
+    text-decoration: underline;
+    color: #83B248;
+}
+.columna-ejercicios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
 
+h3{
+    color: #218F3E;
+    padding: 5%;
+}
+.dias_entrenamientos-1-mujer ul li{
+    color: #4ad16e;
+}
+.dias_entrenamientos-2-mujer ul li{
+    color: #4ad16e;
+}
+.dias_entrenamientos-3-mujer ul li{
+    color: #4ad16e;
+}
+.contenido_caja{
+    width: 50%;
+}
+.dias_entrenamientos-1-mujer{
+    background-image: url('/imagenes/imagen-fuerza-mujer.jpg');
+    background-position: center;
+    padding: 7%;
+    background-size: 60%;
+    background-repeat: no-repeat;
+}
+.dias_entrenamientos-2-mujer{
+    background-image: url('/imagenes/imagen-flexibilidad.jpg');
+    background-position: center;
+    padding: 7%;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+.dias_entrenamientos-3-mujer{
+    background-image: url('/imagenes/resistencia-cardio.jpg');
+    background-position: center;
+    padding: 7%;
+    background-size: 58%;
+    background-repeat: no-repeat;
+}
+.dias_entrenamientos-padding-3-mujer{
+    padding: 9% 2% 15% 2%;
+    background-image: url(/imagenes/actividades-recreativias.jpg);
+    background-position: center;
+    background-size: cover;
+    background-size: 65% 100px;
+    background-repeat: no-repeat;
+    color: #4ad16e;
+}
 
 /*Fin Pagina Plan Entrenamietno Mujer*/
 
@@ -187,9 +283,7 @@ footer div {
     border: 1px solid;
     margin-bottom: 5%;
 }
-.formulario__input:focus{
 
-}
 .formulario__input:focus + .formulario__label{
     margin-left: -10.4%;
 }
@@ -206,9 +300,6 @@ footer div {
     padding: 1% 1%;
     cursor: pointer;
     border: none;
-}
-.fijar{
-    margin-top: -4.3%;
 }
 
 
@@ -265,18 +356,32 @@ footer div {
     align-items: start;
     text-align: center;
 }
-.dias_entrenamientos{
-    padding: 5%;
+.dias_entrenamientos-1-hombre{
+    background-image: url('/imagenes/imagen-fuerza.jpg');
+    background-position: center;
+    padding: 3%;
+    background-size: 90%;
+
 }
+.dias_entrenamientos-2-hombre {
+    background-image: url('/imagenes/resistencia-cardio.jpg');
+    background-position: center;
+    padding: 3%;
+    background-size: 95%;
+    background-repeat: no-repeat;
+}
+.dias_entrenamientos-3-hombre{
+    background-image: url('/imagenes/imagen-flexibilidad.jpg');
+    background-position: center;
+    padding: 3%;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+
 .contenido_caja{
     width: 100%;
 }
-.dias_entrenamientos-padding{
-    padding-bottom: 15%;
-    padding-left: 2%;
-    padding-top: 2%;
-    padding-right: 2%; 
-}
+
 
 /*Fin pagina pagina Plan Entrenamiento Hombre*/
 /*Inicio pagina contactenos*/
@@ -300,14 +405,8 @@ footer div {
     margin-bottom: -2%;
     margin-top: 6%;
 }
-.formulario__input:focus{
-
-}
 .formulario__input:focus + .formulario__label{
     margin-left: 57.6%;
-}
-.fijar{
-    margin-top: -4.3%;
 }
 /*Fin Pagina contactenos*/
 
