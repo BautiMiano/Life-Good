@@ -126,6 +126,8 @@ footer div {
 .card{
     margin: 10%;
     width: 50%;
+
+    text-align: center;
 }
 /*Fin página Productos*/
 /*Inicio pagina Plan entrenamiento Hombre*/
