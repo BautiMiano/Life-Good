@@ -15,10 +15,7 @@ function validarFormulario() {
         return false;
     }
 
-    var datosPersona = 'Nombre: ' + nombre + '\nApellido: ' + apellido + '\nCorreo: ' + correo + '\nMensaje: ' + mensaje;
-    alert('Datos de la persona:\n\n' + datosPersona);
-
-    alert('Su formulario ha sido enviado. En unos instantes nos comunicaremos.');
+  alert('Muchas gracias por ponerte en contacto ' + nombre + ' ' + apellido + '! Su formulario ha sido enviado con éxito. En unos instantes nos comunicaremos.');
 
     document.getElementById('nombre').value = '';
     document.getElementById('apellido').value = '';
